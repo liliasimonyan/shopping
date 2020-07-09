@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
   <body>
-
-<div class="container-fluid">
+   <div class="container-fluid">
   <div class="row bg-warning p-2 align-items-center">
     <div class="text text-danger col-md-3 d-none d-md-block col-lg-3 col-xl-3">
       Welcome to our store
@@ -72,7 +70,7 @@
       <a class="dropdown-item"
       href="#">Register</a>
       <a class="dropdown-item"
-      href="myorders.html">My orders</a>
+      href="#">My orders</a>
       <a class="dropdown-item"
       href="myaccount.html">Account settings</a>
     </div>
@@ -213,9 +211,7 @@ Mobile Phones</a>
                                                       </div> 
 
 
-
-
-    <div class="container">
+<div class="container">
       <div class="row">
         <div class="col-8">
    <nav aria-label="breadcrumb">
@@ -223,115 +219,49 @@ Mobile Phones</a>
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="#">Phones</a></li>
     <li class="breadcrumb-item"><a href="#">Samsung</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Samsung galaxy A10</li>
+    <li class="breadcrumb-item active" aria-current="page">Cart</li>
   </ol>
 </nav>
 </div>
-<div class="col-4">
-<select class="custom-select">
-  <option selected>All prices</option>
-  <option value="1">Prices from low to high</option>
-  <option value="2">Prices from high to low</option>
-</select>
 </div>
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-      <div class="col-2">
-        <a data-fancybox="gallery" href="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-frontblack-157269563?$PD_GALLERY_L_JPG$"><img src="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-frontblack-157269563?$PD_GALLERY_L_JPG$" class="img-fluid"></a>
-  <a data-fancybox="gallery" href="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-backblack-157269552?$PD_GALLERY_L_JPG$"><img src="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-backblack-157269552?$PD_GALLERY_L_JPG$" class="img-fluid"></a>
-  <a data-fancybox="gallery" href="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-rperspectiveblack-157269553?$PD_GALLERY_L_JPG$"><img src="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-rperspectiveblack-157269553?$PD_GALLERY_L_JPG$" class="img-fluid"></a>
-  <a data-fancybox="gallery" href="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-rsideblack-157269555?$PD_GALLERY_L_JPG$"><img src="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-rsideblack-157269555?$PD_GALLERY_L_JPG$" class="img-fluid"></a>
-      </div>
-      <div class="col-8">
-        <a data-fancybox="gallery" href="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-frontblack-157269563?$PD_GALLERY_L_JPG$"><img src="https://images.samsung.com/is/image/samsung/sa-en-galaxy-a10-a105-sm-a105fzkgksa-frontblack-157269563?$PD_GALLERY_L_JPG$" class="img-fluid"></a>
-      </div>
+    <div>
     
-  <div class="col-2">
-    <h2>COLORS</h2>
-    <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Red</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Black</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Blue</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Silver</label>
-</div>
 
+<div>
+    <h2 class="alert">My Orders</h2>
+    <table class="table table-striped alert alert-success">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Samsung Galaxy A10</td>
+      <td>500$</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Sansung Galaxy A10</td>
+      <td>500$</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Samsung Galaxy A10</td>
+      <td>500$</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
- <h2>PIECES</h2>
-    <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">1</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">2</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">3</label>
-</div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">4</label>
-</div>
-</div>
-
-
-<h2>You can also bought</h2>
- <div class="container">
-      <div class="row">
-        <div class="card col-12 col-sm-12 col-md-4 col-lg-6 col-xl-3 alert alert-success">
-         <img src="http://res.cloudinary.com/dbdqcdvqr/image/upload/v1535165831/8f26d9f3-4e92-45f0-9521-5be154ae070a.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-           <h5 class="card-title">IPHONE</h5>
-            <p class="card-text">The iPhone is a line of touchscreen-based smartphones, designed and marketed by Apple Inc</p>
-             <h4 class="alert-success">500$</h4>
-         <a href="#" class="btn btn-primary">Add to card</a>
-  </div>
-</div>
-
-
-
-  <div class="card col-12 col-sm-12 col-md-4 col-lg-6 col-xl-3 alert alert-success">
-         <img src="http://res.cloudinary.com/dbdqcdvqr/image/upload/v1535165831/8f26d9f3-4e92-45f0-9521-5be154ae070a.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-           <h5 class="card-title">IPHONE</h5>
-            <p class="card-text">The iPhone is a line of touchscreen-based smartphones, designed and marketed by Apple Inc</p>
-             <h4 class="alert-success">500$</h4>
-         <a href="#" class="btn btn-primary">Add to card</a>
-  </div>
-</div>
-
- <div class="card col-12 col-sm-12 col-md-4 col-lg-6 col-xl-3 alert alert-success">
-         <img src="http://res.cloudinary.com/dbdqcdvqr/image/upload/v1535165831/8f26d9f3-4e92-45f0-9521-5be154ae070a.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-           <h5 class="card-title">IPHONE</h5>
-            <p class="card-text">The iPhone is a line of touchscreen-based smartphones, designed and marketed by Apple Inc</p>
-             <h4 class="alert-success">500$</h4>
-         <a href="#" class="btn btn-primary">Add to card</a>
-  </div>
-</div>
-
- <div class="card col-12 col-sm-12 col-md-4 col-lg-6 col-xl-3 alert alert-success">
-         <img src="http://res.cloudinary.com/dbdqcdvqr/image/upload/v1535165831/8f26d9f3-4e92-45f0-9521-5be154ae070a.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-           <h5 class="card-title">IPHONE</h5>
-            <p class="card-text">The iPhone is a line of touchscreen-based smartphones, designed and marketed by Apple Inc</p>
-             <h4 class="alert-success">500$</h4>
-         <a href="#" class="btn btn-primary">Add to card</a>
-  </div>
+<a href="shipping.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Checkout</a>
+ </div>
 </div>
 
 
@@ -422,13 +352,10 @@ Mobile Phones</a>
 
 
 
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
